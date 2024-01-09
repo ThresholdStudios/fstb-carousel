@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card Animation</title>
+    <link rel="stylesheet" href="./design.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="image-container">
+        <img src="fstb1.png" alt="Image 1" id="carouselImage">
+      </div>
+      <div class="cards">
+        <div class="card active" data-image="fstb1.png">
+          <div class="progress-bar"></div>
+          Card 1
+        </div>
+        <div class="card" data-image="fstb2.png">
+          <div class="progress-bar"></div>
+          Card 2
+        </div>
+        <div class="card" data-image="fstb3.jpg">
+          <div class="progress-bar"></div>
+          Card 3
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./carousel.js"></script>
+  </body>
+</html>

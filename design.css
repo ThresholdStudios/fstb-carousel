@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  text-align: center;
+  margin-top: 50px;
+  transition: opacity 0.5s ease;
+}
+
+.image-container {
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #ccc;
+  transition: transform 0.25s ease-in-out; /* Added transition for vertical movement */
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #4CAF50;
+  width: 0;
+  margin-top: 5px;
+  transition: width 40ms ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.card.active {
+  border: 2px solid #4CAF50;
+    transform: translateY(-10px); /* Move the active card up by 20px */
+}
