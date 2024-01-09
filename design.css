@@ -31,13 +31,13 @@ body {
 
 .progress-bar {
   height: 5px;
-  background-color: #4CAF50;
+  background-color: red;
   width: 0;
   margin-top: 5px;
   transition: width 40ms ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .card.active {
-  border: 2px solid #4CAF50;
+  border: 2px solid red;
     transform: translateY(-10px); /* Move the active card up by 20px */
 }
